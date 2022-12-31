@@ -19,3 +19,5 @@ map T <C-W>:tabnew<cr>
 tmap T <C-W>:tabnew<cr>
 map S <C-W>:tab term<cr>
 tmap S <C-W>:tab term<cr>
+
+Kindly open your Registry Editor by opening Start Menu and type regedit. And locate this folder HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout. That folder should contain 1 file with name "(Default)". If you see any file other than that, then you should delete it, that should be the map key and restart your computer.
